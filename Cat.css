@@ -1,0 +1,34 @@
+.game-container {
+    text-align: center;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .cell.X {
+    color: blue;
+  }
+  
+  .cell.O {
+    color: red;
+  }
+  
+  .game-status {
+    margin-top: 20px;
+  }
+  
